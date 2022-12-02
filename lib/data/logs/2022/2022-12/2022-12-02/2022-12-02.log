@@ -1,0 +1,5 @@
+{"time": 1669962899.3571975, "type": "debug", "source": "test", "text": "logger.debug 测试成功！"}
+{"time": 1669962899.3728185, "type": "info", "source": "test", "text": "logger.info 测试成功！"}
+{"time": 1669962899.3728185, "type": "warning", "source": "test", "text": "logger.warning 测试成功！"}
+{"time": 1669962899.3728185, "type": "error", "source": "test", "text": "logger.error 测试成功！"}
+{"time": 1669962899.3728185, "type": "critical", "source": "test", "text": "logger.critical 测试成功！"}
