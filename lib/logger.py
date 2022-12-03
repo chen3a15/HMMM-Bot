@@ -48,14 +48,6 @@ CRITICAL：   描述系统发生严重问题的信息，应用程序有崩溃的
 
 '''
 
-def logJudge(log=None, pluginName=None):
-  if log == None:
-    warning("日志内容为空，日志来源：" + pluginName, "logger")
-  if pluginName == None:
-    warning("日志来源为空，日志内容：" + log, "logger")
-  if log != None and pluginName != None:
-    return True
-
 def logWrite(logTime=None, logType=None, logSource=None, logText=None):
   logStr = ""
   logData = {}
